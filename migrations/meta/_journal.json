@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1730048773697,
+      "tag": "0000_mean_power_pack",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1730049281082,
+      "tag": "0001_puzzling_jackpot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1730050229823,
+      "tag": "0002_clean_war_machine",
+      "breakpoints": true
+    }
+  ]
+}
