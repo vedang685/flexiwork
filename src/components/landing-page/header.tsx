@@ -80,7 +80,7 @@ const Header = () => {
       >
         <Image
           src={Logo}
-          alt="Cypress Logo"
+          alt="flexiwork Logo"
           width={25}
           height={25}
         />
