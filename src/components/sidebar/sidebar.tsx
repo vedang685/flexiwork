@@ -75,7 +75,7 @@ const Sidebar: React.FC<SidebarProps> = async ({ params, className }) => {
         />
         <NativeNavigation myWorkspaceId={params.workspaceId} />
         <ScrollArea
-          className="overflow-scroll relative
+          className="overflow-y-auto scrollbar-none relative
           h-[450px]
         "
         >
