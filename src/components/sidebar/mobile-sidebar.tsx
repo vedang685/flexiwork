@@ -1,7 +1,7 @@
 'use client';
 import { Menu } from 'lucide-react';
 import React, { useState } from 'react';
-import CypressPageIcon from '../icons/cypressLogo.svg';
+import CypressPageIcon from '../icons/cypressPageIcon';
 import clsx from 'clsx';
 
 interface MobileSidebarProps {

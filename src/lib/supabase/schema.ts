@@ -41,6 +41,7 @@ export const workspaces = pgTable('workspaces', {
     inTrash: text('in_trash'),
     bannerUrl: text('banner_url'),
     workspaceId: uuid('workspace_id')
+      .notNull()
       .references(() => workspaces.id, {
         onDelete: 'cascade',
       }),
@@ -60,10 +61,12 @@ export const workspaces = pgTable('workspaces', {
     inTrash: text('in_trash'),
     bannerUrl: text('banner_url'),
     workspaceId: uuid('workspace_id')
+      .notNull()
       .references(() => workspaces.id, {
         onDelete: 'cascade',
       }),
     folderId: uuid('folder_id')
+      .notNull()
       .references(() => folders.id, {
         onDelete: 'cascade',
       }),

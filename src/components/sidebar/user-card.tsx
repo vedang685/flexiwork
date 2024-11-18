@@ -5,7 +5,7 @@ import { cookies } from 'next/headers';
 import db from '@/lib/supabase/db';
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 import CypressProfileIcon from '../icons/cypressProfileIcon';
-import ModeToggle from '../global/mode-toggle';
+// import ModeToggle from '../global/mode-toggle';
 import { LogOut } from 'lucide-react';
 import LogoutButton from '../global/logout-button';
 
@@ -73,7 +73,7 @@ const UserCard: React.FC<UserCardProps> = async ({ subscription }) => {
         <LogoutButton>
           <LogOut />
         </LogoutButton>
-        <ModeToggle />
+        {/* <ModeToggle /> */}
       </div>
     </article>
   );
