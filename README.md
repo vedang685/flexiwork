@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📓 FlexiWork - Real-time Collaborative Workspace
 
-## Getting Started
+Welcome to the **FlexiWork** repository! FlexiWork is a powerful real-time collaborative workspace designed to bring users an efficient, shared environment for notes, documents, and task management. With advanced collaboration features, seamless user experiences, and enhanced control, FlexiWork serves as an intuitive and responsive platform built for productivity.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Here's what sets FlexiWork apart:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Real-time Collaboration & Interactivity
+- **🤯 Real-time Cursors:** Visualize collaborators' positions within the document in real-time.
+- **📝 Real-time Text Selection:** Instantly view text selections made by other users.
+- **⏱️ Real-time Database and Collaboration:** Automatically syncs updates across users for a seamless collaborative experience.
+- **🟢 Real-time Presence:** Keep track of who’s active and collaborating live.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Customization & User Control
+- **😜 Custom Emoji Picker:** Personalize communication with a custom emoji selection.
+- **🌙 Light Mode & Dark Mode:** Toggle between light and dark themes to suit your preference.
+- **🗑️ Move to Trash Functionality:** Delete items temporarily with the option for easy recovery.
 
-## Learn More
+### Access & User Management
+- **🚨 Next.js 13 App Router:** Leverages the latest routing capabilities of Next.js for an efficient user experience.
+- **🗺️ Free Plan Restrictions:** Define feature limitations for users on the free plan.
+- **💰 Monthly Payments:** Seamlessly handle subscription payments through integrated providers.
+- **📧 Custom Email 2FA Invitations:** Enhanced security with two-factor authentication via email invites.
 
-To learn more about Next.js, take a look at the following resources:
+### Security & Backend
+- **⚡️ Supabase Row-Level Policy:** Ensures custom, fine-grained access control at the row level.
+- **🔐 Custom Authentication:** Built-in, secure authentication for a seamless login experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Editing & Document Management
+- **🤑 Custom Rich Text Editor:** Edit and format text with ease using a robust rich-text editor.
+- **📚 Profile Settings Update:** Customize profile settings to enhance your user experience.
+- **📍 Payment Management Portal:** Manage subscription and payment details easily in one place.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Optimizations & Deployment
+- **✳️ Websockets:** Enable real-time interactions for smooth collaboration.
+- **📣 Optimistic UI:** Instant visual feedback for an efficient and intuitive user experience.
+- **📱 Responsive Design:** Consistent interface across desktop and mobile devices.
+- **👾 Deployment:** Configured for optimized production deployment.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To set up FlexiWork locally, follow these steps:
+
+### Prerequisites
+- Node.js (>= 14)
+- Supabase Account and Project
+- Payment Provider API Key
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/vedang685/flexiwork.git
+   ```
+
+2. Install dependencies:
+  ```bash
+  cd flexiwork
+  npm install
+  ```
+
+3. Configure environment variables for Supabase and payment provider.
+
+4. Start the development server:
+  ```bash
+  npm run dev
+  ```
+
+5. Open your browser and navigate to http://localhost:3000.
+
+## 🛠️ Tech Stack
+Frontend: Next.js 13, React, WebSockets
+Backend: Supabase, Row-Level Security Policies
+Payments: Subscription management integration
+Authentication: Custom-built two-factor authentication (2FA)
+Deployment: Production-ready configuration
+
